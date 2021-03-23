@@ -6,7 +6,7 @@ sass/
 |– base/ 
 |   |– _normalize.scss   # Reset/normalize 
 |   |– _typography.scss  # Typography rules 
-|   |– fonts.scss        # Fonts rules 
+|   |– _fonts.scss        # Fonts rules 
 | 
 |– components/ 
 |   |– _buttons.scss     # Buttons 
