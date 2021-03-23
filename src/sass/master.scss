@@ -1,1 +1,40 @@
-@import "./components/description";
+@charset "UTF-8";
+
+// 1. Utils
+@import
+  'utils/variables',
+  'utils/functions',
+  'utils/mixins';
+
+// 2. Vendors
+@import
+  'vendors/bootstrap';
+
+// 3. Base
+@import
+  'base/fonts',
+  'base/typography',
+  'base/normalize';
+
+// 4. Layout
+@import
+  'layout/header',
+  'layout/footer',
+  'layout/sidebar',
+  'layout/forms';
+
+// 5. Components
+@import
+  'components/description',
+  'components/buttons',
+  'components/carousel',
+  'components/dropdown',
+  'components/navigation';
+
+// 6. Page-specific styles
+@import
+  'pages/home';
+
+// 7. Themes
+@import
+  'themes/theme';
