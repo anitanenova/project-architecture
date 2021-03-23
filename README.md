@@ -1,12 +1,14 @@
 # project-architecture
 
+### Used The 7–1 Pattern (7 folders, 1 file)
+
 ```
 sass/ 
 | 
 |– base/ 
 |   |– _normalize.scss   # Reset/normalize 
 |   |– _typography.scss  # Typography rules 
-|   |– fonts.scss        # Fonts rules 
+|   |– _fonts.scss        # Fonts rules 
 | 
 |– components/ 
 |   |– _buttons.scss     # Buttons 
