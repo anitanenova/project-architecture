@@ -1,5 +1,7 @@
 # project-architecture
 
+### Used The 7–1 Pattern (7 folders, 1 file)
+
 ```
 sass/ 
 | 
