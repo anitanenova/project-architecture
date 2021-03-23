@@ -1,0 +1,40 @@
+//generally this must be in another file and folder like settings-colors
+$primary-color: #b996da;
+$secondary-color: #faebd7;
+
+
+.home__description {
+    align-items: stretch;
+    display: flex;
+    flex-flow: row wrap;
+    height: 250px; 
+
+    &__text {
+
+        &--wrapper{
+            background-color: $secondary-color;
+            align-items: center;
+            display: flex;
+            flex-flow: column wrap;
+        }
+       
+        &__image{
+            max-width: 100px;
+            max-height: 100px;
+            width: 100%;
+            height: 100%;
+        }
+    }    
+
+    &__additional-text--wrapper {
+        background-color: $primary-color;
+    }
+
+    &__text--wrapper,
+    &__additional-text--wrapper {         
+        box-sizing: border-box;            
+        max-width: 250px;
+        padding: 25px; 
+        width: 100%;
+    }
+}
